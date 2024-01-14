@@ -23,3 +23,7 @@ def exibir_palavra_oculta(palavra, letras_corretas):
         else:
             palavra_oculta += "_"
     return palavra_oculta
+
+# Exibir tentativas restantes
+def exibir_tentativas_restantes(tentativas):
+    print("Tentativas restantes: ", tentativas)
