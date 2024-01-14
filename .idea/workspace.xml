@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a769a0-e404-4606-a567-c70d20ec6f32" name="Changes" comment="First commit - I added the function to clear the screen after each execution" />
+    <list default="true" id="15a769a0-e404-4606-a567-c70d20ec6f32" name="Changes" comment="Second commit - I added the function to choose random words">
+      <change beforePath="$PROJECT_DIR$/.venv/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/hangman.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,11 +100,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705203613092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second commit - I added the function to choose random words">
+      <option name="closed" value="true" />
+      <created>1705203884503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705203884503</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit - I added the function to clear the screen after each execution" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit - I added the function to clear the screen after each execution" />
+    <MESSAGE value="Second commit - I added the function to choose random words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit - I added the function to choose random words" />
   </component>
 </project>

@@ -13,3 +13,13 @@ def limpa_tela():
 def palavra_aleatoria():
     lista_de_palavras = ["abacate", "banana", "morango", "uva", "laranja", "maca", "pera"]
     return random.choice(lista_de_palavras)
+
+# Função para exibir a palavra oculta
+def exibir_palavra_oculta(palavra, letras_corretas):
+    palavra_oculta = ""
+    for letra in palavra:
+        if letra in letras_corretas:
+            palavra_oculta += letra
+        else:
+            palavra_oculta += "_"
+    return palavra_oculta
