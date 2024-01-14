@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a769a0-e404-4606-a567-c70d20ec6f32" name="Changes" comment="Second commit - I added the function to choose random words">
+    <list default="true" id="15a769a0-e404-4606-a567-c70d20ec6f32" name="Changes" comment="Sixth commit - I added the main function of the game">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/hangman.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,12 +109,48 @@
       <option name="project" value="LOCAL" />
       <updated>1705203884503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third commit - I added a function to display a hidden word">
+      <option name="closed" value="true" />
+      <created>1705204053125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705204053125</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fourth commit - I added a function to display the remaining attempts">
+      <option name="closed" value="true" />
+      <created>1705204137330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705204137330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fifth commit - I added a function to receive the player's letter">
+      <option name="closed" value="true" />
+      <created>1705204197313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705204197313</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sixth commit - I added the main function of the game">
+      <option name="closed" value="true" />
+      <created>1705204327821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705204327821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit - I added the function to clear the screen after each execution" />
     <MESSAGE value="Second commit - I added the function to choose random words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit - I added the function to choose random words" />
+    <MESSAGE value="Third commit - I added a function to display a hidden word" />
+    <MESSAGE value="Fourth commit - I added a function to display the remaining attempts" />
+    <MESSAGE value="Fifth commit - I added a function to receive the player's letter" />
+    <MESSAGE value="Sixth commit - I added the main function of the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth commit - I added the main function of the game" />
   </component>
 </project>

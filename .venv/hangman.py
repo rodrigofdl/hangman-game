@@ -35,13 +35,15 @@ def receber_letra():
 # Função principal do jogo
 def jogo_da_forca():
     limpa_tela()
+    print("\nBem-vindo(a) ao jogo da forca!\nAdivinhe a palavra abaixo:")
+
     palavra_secreta = palavra_aleatoria()
     letras_corretas = []
     tentativas_restantes = 6
 
     while tentativas_restantes > 0:
         palavra_oculta = exibir_palavra_oculta(palavra_secreta, letras_corretas)
-        print(palavra_oculta)
+        print("\n", palavra_oculta)
         exibir_tentativas_restantes(tentativas_restantes)
         letra_digitada = receber_letra()
 
@@ -52,18 +54,18 @@ def jogo_da_forca():
         if letra_digitada in palavra_secreta:
             letras_corretas.append(letra_digitada)
             if all(letra in letras_corretas for letra in palavra_secreta):
-                print("Parabens! Você venceu. A palavra é:", palavra_secreta)
+                print("Parabens! Você venceu. A palavra é:", palavra_secreta, "\n")
                 break
 
         if letra_digitada == palavra_secreta:
-            print("Parabens! Você venceu. A palavra é:", palavra_secreta)
+            print("Parabens! Você venceu. A palavra é:", palavra_secreta, "\n")
             break
 
         else:
             tentativas_restantes -= 1
 
         if tentativas_restantes == 0:
-            print("Você perdeu! A palavra correta era:", palavra_secreta)
+            print("Você perdeu! A palavra correta era:", palavra_secreta, "\n")
 
 # Iniciar jogo
 jogo_da_forca()
