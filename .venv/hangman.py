@@ -9,6 +9,82 @@ def limpa_tela():
     else:
         _ = system('clear')
 
+def display_hangman(tentativas_restantes):
+
+    # Lista de estágios da forca
+    estagios = [  # estágio 6 (final)
+        """
+           --------
+           |      |
+           |      O
+           |     /|\
+           |      |
+           |     / \
+           -
+        """,
+        # estágio 5
+        """
+           --------
+           |      |
+           |      O
+           |     /|\
+           |      |
+           |     
+           -
+        """,
+        # estágio 4
+        """
+           --------
+           |      |
+           |      O
+           |     /|
+           |      |
+           |      
+           -
+        """,
+        # estágio 3
+        """
+           --------
+           |      |
+           |      O
+           |      |
+           |      |
+           |     
+           -
+        """,
+        # estágio 2
+        """
+           --------
+           |      |
+           |      O
+           |      |
+           |      
+           |     
+           -
+        """,
+        # estágio 1
+        """
+           --------
+           |      |
+           |      O
+           |    
+           |      
+           |     
+           -
+        """,
+        # estágio 0
+        """
+           --------
+           |      |
+           |      
+           |    
+           |      
+           |     
+           -
+        """
+    ]
+    return estagios[tentativas_restantes]
+
 # Função para escolher palavra aleatória
 def palavra_aleatoria():
     lista_de_palavras = ["abacate", "banana", "morango", "uva", "laranja", "maca", "pera"]
@@ -42,6 +118,7 @@ def jogo_da_forca():
     tentativas_restantes = 6
 
     while tentativas_restantes > 0:
+        print(display_hangman(tentativas_restantes))
         palavra_oculta = exibir_palavra_oculta(palavra_secreta, letras_corretas)
         print("\n", palavra_oculta)
         exibir_tentativas_restantes(tentativas_restantes)
@@ -61,7 +138,7 @@ def jogo_da_forca():
             print("Parabens! Você venceu. A palavra é:", palavra_secreta, "\n")
             break
 
-        else:
+        elif not(letra_digitada in palavra_secreta):
             tentativas_restantes -= 1
 
         if tentativas_restantes == 0:
