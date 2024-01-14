@@ -27,3 +27,7 @@ def exibir_palavra_oculta(palavra, letras_corretas):
 # Exibir tentativas restantes
 def exibir_tentativas_restantes(tentativas):
     print("Tentativas restantes: ", tentativas)
+
+# Função para receber a letra do jogador
+def receber_letra():
+    return input("Digite uma letra: ").lower()
